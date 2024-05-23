@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Andrew Cruz Portfolio</title>
+</head>
+
+<body>
+  <header>
+    <a href="#home" class="head">Home</a>
+    <a href="#aboutme" class="head">About Me</a>
+    <a href="#projects" class="head">Projects</a>
+    <a href="#contact" class="head">Contact</a>
+  </header>
+
+  <div class="scroll-watcher"></div>
+
+  <div>
+    <a href="#home" class="backtotop"></a>
+    <a href="#home" class="backtotop2"></a>
+  </div>
+
+  <div id="home">
+    <img class="home-animation" src="images/home-animation.gif">
+    <div class="heading">
+      <h1>
+        <span aria-hidden="true">Andrew Cruz Portfolio</span>
+        Andrew Cruz Portfolio
+        <span aria-hidden="true">Andrew Cruz Portfolio</span>
+      </h1>
+    </div>
+
+    <img class="logo" src="images/logoanimation.gif">
+  </div>
+  
+
+
+  <div id="aboutme">
+    <div class="center">
+      <img class="profilepicture" src="images/profilepicture1.jpg">
+      <p>
+        Hello...
+        Welcome to the portfolio of Andrew Cruz. 
+        I am a UI/UX Designer with a minor dabbling in animation and 3d Work.
+        Pleased to meet and work with you!
+      </p>
+    </div>
+  </div>
+
+  <div id="projects">
+    <p class="projectsheader">
+      Here are the projects I have worked on during my time in Curtin University and in my personal life
+    </p>
+
+    <div class="gallery">
+      <h3 class="headergallery">Shark's Fin</h3>
+      <h3 class="headergallery">Drift Kings</h3>
+      <h3 class="headergallery">Candy Carousel Augmented Experience</h3>
+      <h3 class="headergallery">Mag Handles</h3>
+      <div class="imagegallery">
+        <button class="prev" onclick="plusDivsForBoth(-1)"></button>
+          <div class="mySlides2"><img class="galleryimages" src="/images/shark'sfin.png" alt="Shark Fin Website"></div>
+          <div class="mySlides2"><img class="galleryimages" src="/images/driftkings.png" alt="Shark Fin Website"></div>
+          <div class="mySlides2"><img class="galleryimages" src="/images/imagecarousel.png" alt="Shark Fin Website"></div>
+          <div class="mySlides2"><img class="galleryimages" src="/images/maghandles1.png" alt="Shark Fin Website"></div>
+          <p class="desc">Shark’s Fin website is a website that pays love to my love of sharks and the preservation of their species in our oceans.
+
+            It also serves as the second full fledged website that incorporates HTML, CSS and Javascript for the smooth and sexy animations seen on the picture to the right.</p>
+          <p class="desc">The Street Kings website is the dipping of my toe into the frontend development but also the backend development of a website. It is a car selling website that uses the underground Tokyo car scene as it’s influence and background
+
+            The website incorporates a full stack development approach used to send information back and forth from the user to the database to retrieve information.</p>
+          <p class="desc">The Candy Carousel Multimodal Interaction display is a 3d object that users can interact with their body in a sort of futuristic and sci-fi type of way.
+            Incorporating new principles such as hands and space, body and display to fully immerse the human body to set the display apart from regular, old and boring touch screen displays, which still has it’s purpose in this day and age.
+            But the future is now.</p>
+          <p class="desc">Mag Handles is the MagSafe for the average person who can’t reasonably purchase a $300 magnetic charger for their phone.
+
+            Mag Handles is my first ever experience at ideating, designing, prototyping and concept finalisation of a real life product that is tangible.
+            </p>
+        <button class="next" onclick="plusDivsForBoth(1)"></button>
+    </div>
+
+  </div>
+
+  <div id="contact">
+    <p>
+      Here are all of my contacts and touch points to get into contact with me directly. See you soon!.
+    </p>
+
+    <div class="logos">
+      <a href="https://www.instagram.com/andrewcruzdesigns/"><img class="instagram" src="/images/instagram.png"></a>
+      <img class="email" src="/images/email.png">
+    </div>
+
+  </div>
+
+
+
+
+  <script src="main.js"></script>
+</body>
+
+</html>
