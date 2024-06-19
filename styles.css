@@ -4,6 +4,11 @@
   scroll-behavior:smooth;
 }
 
+.instagram-tag{
+  padding: 0;
+  width: 0;
+}
+
 html{
   scroll-padding-top: 100px;
   ::-webkit-scrollbar{ 
@@ -75,6 +80,7 @@ header{
   animation-timeline: scroll();
   animation-iteration-count: 1;
   transition: 0.5s;
+
 }
 
 @keyframes rotate{
@@ -359,11 +365,14 @@ h1 span:last-child{
 .logos{
   margin: auto;
   padding-top: 100px;
+  width: 50%;
 }
 
 .instagram, .email{
   width: 15%;
   padding: 20px;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 
 
@@ -372,12 +381,6 @@ h1 span:last-child{
 @keyframes typing {
   from { width: 0 }
   to { width: 100% }
-}
-
-/* The typewriter cursor effect */
-@keyframes blink-caret {
-  from, to { border-color: transparent }
-  50% { border-color: white; }
 }
 
 #aboutme{
