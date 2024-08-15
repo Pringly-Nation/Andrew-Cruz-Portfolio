@@ -10,7 +10,7 @@ function showDivs(n) {
   for (i = 0; i < x.length; i++) { // display none the current slide
     x[i].style.display = "none";
   }
-  x[slideIndex-1].style.display = "block"; // display blocks the next slide
+  x[slideIndex-1].style.display = "flex"; // display blocks the next slide
 }
 
 var slideIndex2 = 1; // slide index is the current slide 
@@ -24,7 +24,7 @@ function showDivs2(n) {
   for (i2 = 0; i2 < x2.length; i2++) { // display none the current slide
     x2[i2].style.display = "none";
   }
-  x2[slideIndex2-1].style.display = "block"; // display blocks the next slide
+  x2[slideIndex2-1].style.display = "flex"; // display blocks the next slide
 }
 
 function plusDivsForBoth(n){
@@ -45,5 +45,5 @@ function showDivs3(n) {
   for (i3 = 0; i3 < x3.length; i3++) { // display none the current slide
     x3[i3].style.display = "none";
   }
-  x3[slideIndex2-1].style.display = "block"; // display blocks the next slide
+  x3[slideIndex2-1].style.display = "flex"; // display blocks the next slide
 }
